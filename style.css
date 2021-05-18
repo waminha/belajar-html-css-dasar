@@ -1,6 +1,6 @@
 body {
   height: 9999px;
-  background-color: teal;
+  background-image: url(image/bg-body.gif);
 }
 
 /* navbar */
@@ -43,7 +43,7 @@ body {
 .row p {
   size: 10px;
   text-align: center;
-  font-family: "viga";
+  font-family: "KoHo";
 }
 
 /* VERSI DESKTOP */
