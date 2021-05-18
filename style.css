@@ -1,0 +1,55 @@
+body {
+  height: 9999px;
+  background-color: teal;
+}
+
+/* navbar */
+
+.navbar-brand {
+  font-family: "viga";
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+.navbar-brand img {
+  border: 2px solid black;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url(image/bg-image.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-bottom: 5px solid white;
+}
+
+.text {
+  text-align: center;
+  line-height: 200px;
+  font-family: "viga";
+  color: white;
+}
+
+.text p {
+  margin-top: -70px;
+}
+
+/* KONTEN */
+.row p {
+  size: 10px;
+  text-align: center;
+  font-family: "viga";
+}
+
+/* VERSI DESKTOP */
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 500px;
+    width: 100%;
+  }
+}
